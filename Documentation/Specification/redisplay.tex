@@ -292,7 +292,7 @@ binding \cl{stream-redisplaying-p} of the stream to \term{true}, then creating
 the new output records by invoking \cl{compute-new-output-records}.  Once the
 new output records have been computed, \cl{compute-difference-set} is called to
 compute the difference set, which is then passed to
-\cl{note-child-output-record-changed}.
+\cl{note-output-record-child-changed}.
 
 The other optional arguments can be used to specify where on the \arg{stream}
 the output record should be redisplayed.  \arg{x} and \arg{y} represent where
